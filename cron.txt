@@ -1,1 +1,1 @@
-* * * * * pipenv run python /home/pi/ISP_Watchdog/isp_report.py >/dev/null 2>&1
+* * * * * /home/pi/ISP_Watchdog/run.sh >/dev/null 2>&1
