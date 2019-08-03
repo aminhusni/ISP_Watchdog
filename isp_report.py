@@ -24,6 +24,4 @@ ping1 = ping(IP_1, size=64)
 ping2 = ping(IP_2, size=64)
 ping3 = ping(IP_3, size=64)
 
-var1.save_value({'value': ping1.rtt_avg_ms})
-var2.save_value({'value': ping2.rtt_avg_ms})
-var3.save_value({'value': ping3.rtt_avg_ms})
+api.save_collection([{'variable': Variable_1, 'value': ping1.rtt_avg_ms}, {'variable': Variable_2, 'value': ping2.rtt_avg_ms}, {'variable': Variable_3, 'value': ping3.rtt_avg_ms}])
