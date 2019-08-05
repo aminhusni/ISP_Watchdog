@@ -18,7 +18,7 @@
 3. Login into your Ubidots account and copy the API key. 
 4. Create a device and FOUR variables with one for the Hearbeat variable (choose the default variable if you are not sure) .
 5. Copy down all the variable ID.
-6. Edit the configuration file by typing `nano config.py`
+6. Edit the configuration file by typing `nano config.py` (refer to config.py.example)
 7. Insert the appropriate API key and variable ID.
 8. Test the program by typing `python isp_report.py`
 9. Your results should be available on the dashboard on Ubidots.

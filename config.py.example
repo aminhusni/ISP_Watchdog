@@ -1,7 +1,11 @@
+
+#No quotation marks required. Just fill in the variables
 [isp_watchdog]
 API_Key = 
 
 #Specify your variable ID from Ubidots and the subsequent IP Address
+
+Heartbeat = 
 
 #DNS
 Variable_1 = 
