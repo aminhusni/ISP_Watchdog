@@ -23,6 +23,8 @@
 8. Test the program by typing `python isp_report.py`
 9. Your results should be available on the dashboard on Ubidots.
 
+![Variables you need](https://i.imgur.com/5rOiDhj.jpg)
+
 ### Part 2
 Now we need to make it run periodically. Since it needed root privilege, you need to make sure to run it as root. 
 1. Review the `cron.txt` and edit the path to point to the program. Also, edit the interval as you like. The deault is set to report every minute. 
@@ -33,3 +35,6 @@ Now we need to make it run periodically. Since it needed root privilege, you nee
 To detect downtime and visualize your data, you would need to configure Ubidots dashboard a bit. 
 1. Go to the dashboard section and create three graphs. This will be for your RTT value visualizations. 
 2. Go to Events section, configure so that if the Heartbeat variable is inactive for X minutes, set itself to ZERO. 
+
+![Variables you need](https://i.imgur.com/4RXZxbM.jpg)
+![Variables you need](https://i.imgur.com/glesQr5.jpg)
